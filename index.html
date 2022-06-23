@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Programming 1-Assignment 4</title>
+<style>
+body{
+min-height: 200px;
+}
+.card-container {
+ display: flex;
+justify-content: space-around;
+width: 80%;
+min-height: 150px;
+} 
+
+.card {
+   width: 30%;
+   box-shadow: 0px 4px 2px 2px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+   background-color: white;
+   position: relative;
+   overflow: auto;
+   ;
+}
+.container {
+   padding: 10px;
+   }
+  img {
+	display: block;
+	cursor: zoom-in;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+  } 
+@font-face {
+font-family:"Merienda";
+src: url("fonts/Merienda_One/MeriendaOne-Regular.ttf");
+}
+
+@font-face {
+font-family:"LightItalic";
+src: url("fonts/Roboto/Roboto-LightItalic.ttf");
+}
+	 
+  p{
+  float: inline-start;
+  font-family: Merienda;
+  text-align: justify;
+  cursor: crosshair;
+  text-indent: 10px;
+  word-spacing: 3px;
+  font-size: 100%;
+    }
+  h4 {
+   position: absolute;
+   font-family: LightItalic;
+   top: -5px;
+   right: 15px;
+   color: white;
+   text-shadow:3px -5px 4px #bfbfbf;;
+  } 
+article {
+  float: centre;
+  padding-left:20%;
+  height: 80%; 
+}
+</style>
+<body>
+<article>
+<div class="card-container" style="height: 80%;">
+<div class="card">
+  <img src="image/legzira.jpg" alt="plage" style="width:90%;">
+  <div class="container" >
+     <h4>Legzira beach </h4> 
+	 <p>Legzira beach  is in the south of Morocco, about 10 kilometers from Sidi Ifni city. this beach is characterized by the golden sand, the crystal clear and calm sea, and especially the great ocher cliffs which excite. The sound of sea breaking on the rocks, the nuances of the rays that fade at sunset and cover everything with a fiery red, will leave you speechless.</p>  
+ <p>It is an opportunity to admire the unique landscape of a huge beach that stretches as far as the eye can see over the Atlantic Ocean, hidden in the hollow of a magnificent cliff with ocher-colored boulders.</p>
+ </div>
+</div>
+<div class="card" style="height: 60%;">
+  <img src="image/quemado.jpg" alt="plage"  style="width:90%;">
+  <div class="container" >
+    <h4>Quemado beach</h4> 
+	<p>Al Hoceima city is nicknamed the "Pearl of the Mediterranean". it is surrounded by  serie of marvelous beaches. Quemado beach is one of the most popular. The water is crystal clear and the sand will offer you a unique delicacy. Nearby, in addition to bars and restaurants where you can taste the typical Moroccan cuisine, you will find many shops in which you can choose the beautiful memories of your holidays.</p> 
+  </div>
+</div>
+<div class="card"style="height: 40%;">
+  <img src="image/las cuevas.jpg" alt="plage" style="width:90%;">
+  <div class="container" >
+   <h4>Las cuevas beach</h4>
+    <p>A very beautiful beach in the surroundings of the city Asilah. a beautiful tourist resort, popular for its white buildings. nickname "Paradise beach". It is a pearl set in the sand and the rocks whose access is not easy, because it can only be done on foot, with a beautiful walk in the greenery.</p>  
+  </div>
+</div>
+</div>
+</article>
+</body>
+</html>
